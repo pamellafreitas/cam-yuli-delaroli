@@ -1,0 +1,416 @@
+.img-desktop {
+  display: block;
+}
+
+.img-mobile {
+  display: none;
+}
+
+.banner-section {
+  position: relative;
+  background-image: url("/img/contemporaneo-banner.webp");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  min-height: 450px;
+
+  display: flex;
+  align-items: center;
+}
+
+.banner-hiphop {
+  position: relative;
+  background-image: url("/img/banner-hiphop.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 450px;
+
+  display: flex;
+  align-items: center;
+}
+
+.banner-sapateado {
+  position: relative;
+  background-image: url("/img/banner-sapateado.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 450px;
+
+  display: flex;
+  align-items: center;
+}
+
+.banner-acrobacia {
+  position: relative;
+  background-image: url("/img/banner-acrobacia.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 450px;
+
+  display: flex;
+  align-items: center;
+}
+
+.banner-camdance {
+  position: relative;
+  background-image: url("/img/banner-camdance.webp");
+  background-size: cover;
+  background-position: center ;
+  background-repeat: no-repeat;
+  min-height: 450px;
+
+  display: flex;
+  align-items: center;
+}
+
+.banner-teatro {
+  position: relative;
+  background-image: url("/img/aula-teatro.webp");
+  background-size: cover;
+  background-position: center ;
+  background-repeat: no-repeat;
+  min-height: 450px;
+
+  display: flex;
+  align-items: center;
+}
+
+.banner-hiphop .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(192, 0, 0, 0.75); 
+  z-index: 1;
+}
+
+.banner-sapateado .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(192, 0, 0, 0.75); 
+  z-index: 1;
+}
+
+.banner-camdance .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(192, 0, 0, 0.75); 
+  z-index: 1;
+}
+
+.banner-acrobacia .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(192, 0, 0, 0.75); 
+  z-index: 1;
+}
+
+.banner-teatro .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(192, 0, 0, 0.75); 
+  z-index: 1;
+}
+
+.banner-section .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(192, 0, 0, 0.75); 
+  z-index: 1;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  max-width: 900px;
+}
+
+/* Título */
+.titulo-banner {
+  font-family: "Cinzel", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+/* Texto */
+.texto-banner {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+
+.iniciacao-danca-img {
+  position: relative;
+  width: 100%;
+}
+
+.iniciacao-danca-img img {
+  width: 100%;
+  height: auto; 
+}
+
+.iniciacao-detalhe {
+  background: #FAFAFA;
+  padding: 80px 0;
+}
+
+/* Texto */
+.texto-iniciacao {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+  width: 90%;
+}
+
+/* Imagem */
+.img-iniciacao {
+  border-radius: 6px;
+  width: 100%;
+}
+
+/* Subtítulos */
+.titulo-sub {
+  font-family: "Cinzel", serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #8b0000;
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+/* =====================
+   BENEFÍCIOS
+===================== */
+
+.beneficios-itens {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.beneficio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #8b0000;
+  max-width: 140px;
+}
+
+.beneficio img {
+  width: 40px;
+  margin-bottom: 8px;
+}
+
+/* =====================
+   TURMAS
+===================== */
+
+.turma-box {
+  border: 1.5px solid #8b0000;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+  color: #8b0000;
+  border-radius: 4px;
+  max-width: 360px;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ================================
+   NOSSA UNIDADE
+================================ */
+
+#nossa-unidade {
+  background-size: cover;
+  background-color: #850907 !important;
+  padding-bottom: 90px !important;
+}
+
+/* Título e subtítulo */
+.titulo-unidade {
+  font-family: "Cinzel", serif;
+  font-weight: bold;
+  color: #FAFAFA;
+  padding-bottom: 40px;
+}
+
+/* Título da unidade */
+#nossa-unidade h3 {
+  font-family: "Cinzel", serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #FAFAFA;
+}
+
+/* Texto descritivo */
+#nossa-unidade p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #FAFAFA;
+}
+
+#nossa-unidade .unidade {
+  margin-right: 5rem;
+}
+
+/* Botão */
+#nossa-unidade .btn-cam {
+  background-color: #C00000;
+  color: #FFDBDB;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 12px;
+  box-shadow:
+    0px 4px 8px rgba(0, 0, 0, 0.12),
+    0px 1px 3px rgba(0, 0, 0, 0.16);
+  transition: all 0.3s ease;
+}
+
+#nossa-unidade .btn-cam:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.08);
+  box-shadow:
+    0px 8px 16px rgba(0, 0, 0, 0.14),
+    0px 3px 6px rgba(0, 0, 0, 0.18);
+}
+
+.unidade-img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+/* Imagem */
+.unidade-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+}
+
+.faixa {
+  font-weight: bold !important;
+}
+
+.comunicacao {
+  padding-right: 20px !important;
+}
+
+/* 📱 TABLET E MOBILE */
+@media (max-width: 991px) {
+  .iniciacao-detalhe {
+    padding: 60px 0;
+  }
+
+  .texto-iniciacao {
+    width: 100%;
+  }
+
+  #nossa-unidade p {
+    text-align: center !important;
+    margin-right: 0px !important;
+  }
+
+  #nossa-unidade h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .titulo-banner {
+    font-size: 2rem;
+  }
+
+  .texto-banner {
+    font-size: 1.2rem;
+    padding: 0 10px;
+  }
+
+  .banner-hiphop {
+    min-height: 300px;
+  }
+
+    .banner-sapateado {
+    min-height: 300px;
+  }
+
+    .banner-camdance {
+    min-height: 300px;
+  }
+
+    .banner-acrobacia {
+    min-height: 300px;
+  }
+
+    .banner-teatro {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 575px) {
+  .img-desktop {
+    display: none;
+  }
+
+  .img-mobile {
+    display: block;
+  }
+
+  .iniciacao-detalhe {
+    margin-top: -20px !important;
+  }
+
+    .banner-section {
+    min-height: 260px;
+  }
+  
+    .banner-hiphop {
+    min-height: 260px;
+  }
+
+    .banner-camdance {
+    min-height: 260px;
+  }
+
+    .banner-sapateado {
+    min-height: 260px;
+  }
+
+    .banner-acrobacia {
+    min-height: 260px;
+  }
+
+    .banner-teatro {
+    min-height: 260px;
+  }
+
+  .titulo-banner {
+    font-size: 1.7rem;
+  }
+
+  .texto-banner {
+    font-size: 1rem;
+  }
+}
+
+
+
+

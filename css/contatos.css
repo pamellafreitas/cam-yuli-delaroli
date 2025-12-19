@@ -1,0 +1,149 @@
+/* ---------------------- */
+/* SEÇÃO CONTATOS - BASE   */
+/* ---------------------- */
+
+.contatos-section {
+  position: relative;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.contatos-bg {
+  background: linear-gradient(rgba(140, 0, 0, 0.6), rgba(140, 0, 0, 0.6)),
+              url('/img/ballet-fundo.webp') center/cover no-repeat;
+  height: 400px;
+  width: 100%;
+}
+
+/* Card branco */
+.contato-card {
+  background: #fff;
+  max-width: 900px !important;
+  margin: -120px auto 0;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.15);
+  text-align: left;
+}
+
+/* Títulos */
+.titulo-contatos {
+  font-family: "Cinzel", serif;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #fff;
+}
+
+.subtitulo-contatos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  color: #fff;
+  margin-top: -8px;
+}
+
+/* Textos */
+.contato-texto h2,
+.unidade-box h2 {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+/* Informações */
+.info-item {
+  margin: 8px 0;
+  font-size: 15px;
+}
+
+.info-item svg {
+  margin-right: 4px;
+  color: #a30000;
+}
+
+/* Botão */
+.btn-agendar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: #a30000;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(163, 0, 0, 0.25);
+  transition: 0.25s ease-in-out;
+  max-width: 260px;
+  width: 100%;
+}
+
+.btn-agendar:hover {
+  background: #8a0000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(163, 0, 0, 0.35);
+}
+
+/* Redes sociais */
+.redes-sociais h3 {
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+.redes-sociais .icons a {
+  text-decoration: none;
+  font-size: 26px;
+  margin: 0 10px;
+  color: #a30000;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  display: inline-block;
+}
+
+.redes-sociais .icons a:hover {
+  transform: scale(1.12);
+}
+
+.redes-sociais svg {
+  transition: transform 0.3s ease, opacity 0.1s ease;
+}
+
+
+
+/* ---------------------- */
+/*      MEDIA QUERIES     */
+/* ---------------------- */
+
+/* Mobile médio — abaixo de 768px */
+@media (max-width: 768px) {
+  .contato-card {
+    margin-top: -180px;
+    padding: 25px;
+  }
+
+  .contatos-bg {
+    height: 400px;
+  }
+
+  .btn-agendar {
+    width: 100%;
+    text-align: center;
+  }
+
+  .unidade-box {
+    padding-top: 30px;
+  }
+
+  .contato-texto,
+  .unidade-box {
+    padding-inline: 10px !important;
+  }
+}
+
+/* Mobile pequeno — abaixo de 576px */
+@media (max-width: 576px) {
+  .btn-agendar {
+    padding: 12px 20px;
+    display: block;
+  }
+}
+

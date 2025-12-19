@@ -1,0 +1,231 @@
+.img-desktop {
+  display: block;
+}
+
+.img-mobile {
+  display: none;
+}
+
+.sobre-escola {
+    padding-top: 4rem;
+    background-color: #FAFAFA;
+}
+
+
+.titulo-escola {
+  font-family: "Dancing Script", cursive;
+  font-size: 5rem;
+  color: #850907;
+  line-height: 1;
+}
+
+.sobre-escola p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.img-bottom {
+  margin-top: 30px;
+}
+
+/* SEÇÃO COM IMAGEM + OVERLAY */
+.essencia-section {
+  position: relative;
+  padding: 80px 0;
+  background: url("/img/fundo-sobre.webp") center/cover no-repeat;
+}
+
+.essencia-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(133, 9, 7, 0.82); 
+}
+
+/* CONTEÚDO ACIMA DO OVERLAY */
+.section-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* TÍTULO */
+.titulo-essencia {
+  font-family: "Dancing Script", cursive;
+  font-size: 48px;
+  color: #fff;
+}
+
+.subtitulo-essencia {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #f8dede;
+  margin-top: -10px;
+  margin-bottom: 40px;
+}
+
+/* CARDS */
+.card-essencia {
+  background: #fff;
+  padding: 30px 20px;
+  border: 2px solid #C00000;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.82);
+  height: 100%;
+}
+
+.icon-wrapper {
+  font-size: 42px;
+  color: #9f0000;
+  margin-bottom: 15px;
+}
+
+.card-essencia h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #9f0000;
+}
+
+.card-essencia p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #9f0000;
+}
+
+/* TÍTULO */
+.titulo-unidade {
+  font-family: "Sacramento", cursive;
+  font-size: 48px;
+  color: #333;
+}
+
+.subtitulo-unidade {
+  font-size: 15px;
+  color: #666;
+  margin-top: -10px;
+}
+
+/* CARD */
+.card-unidade {
+  background: #fff;
+  width: 100%;
+  max-width: 480px;
+  padding: 40px 30px;
+  border-radius: 10px;
+  border: 2px solid #7a0000;
+  box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+.titulo-card {
+  font-size: 26px;
+  font-weight: 700;
+  color: #680000;
+  margin-bottom: 20px;
+}
+
+.texto-card {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* BOTÕES */
+.botoes-unidade {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+/* BOTÃO PRINCIPAL */
+.btn-agendar {
+  background: #7a0000;
+  color: #fff;
+  padding: 10px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s;
+}
+
+.btn-agendar:hover {
+  background: #590000;
+}
+
+/* BOTÃO SECUNDÁRIO */
+.btn-local {
+  border: 1px solid #7a0000;
+  color: #7a0000;
+  padding: 10px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: 0.3s;
+}
+
+.btn-local:hover {
+  background: #7a0000;
+  color: #fff;
+}
+
+/* TABLET E MENOR (até 991px) */
+@media (max-width: 991px) {
+    .sobre-escola p {
+        margin-left: 30px;
+    }
+}
+
+/* Ajuste em telas menores */
+@media (max-width: 768px) {
+
+  .titulo-unidade {
+    font-size: 34px;
+  }
+
+  .card-unidade {
+    padding: 30px 20px;
+  }
+
+  .texto-card {
+    font-size: 14px;
+  }
+
+  .titulo-essencia {
+    font-size: 32px;
+  }
+
+  .titulo-escola {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .sobre-escola {
+    margin-top: -1rem;
+    text-align: center;
+  }
+  
+}
+
+@media (max-width: 575px) {
+
+    .img-desktop {
+    display: none;
+  }
+
+  .img-mobile {
+    display: block;
+  }
+}
